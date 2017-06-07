@@ -19,7 +19,7 @@ public class MyBroadcastReciever extends BroadcastReceiver {
 
         Log.i("Reciever Info Message :"," A Message was Deliveried to MyBroadcastReciever");
         Toast.makeText(context,"The Message was deliveried from The Broadcast!!",Toast.LENGTH_SHORT).show();
-        
+
 
     }
 }
