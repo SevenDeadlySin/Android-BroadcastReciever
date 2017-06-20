@@ -18,19 +18,19 @@
         </activity>
 
         <receiver android:name=".Broadcast.SecondReciever">
-            <intent-filter>
+            <intent-filter android:priority="20">
                 <action android:name="my.custom.reciever"></action>
             </intent-filter>
         </receiver>
 
         <receiver android:name=".Broadcast.FirstReciever">
-            <intent-filter>
+            <intent-filter android:priority="30">
                 <action android:name="my.custom.reciever"></action>
             </intent-filter>
         </receiver>
 
         <receiver android:name=".Broadcast.ThirdReciever">
-            <intent-filter>
+            <intent-filter android:priority="10">
                 <action android:name="my.custom.reciever"></action>
             </intent-filter>
         </receiver>
